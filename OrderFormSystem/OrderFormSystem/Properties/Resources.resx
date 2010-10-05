@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LoginNoName" xml:space="preserve">
+    <value>没有这个用户,请输入正确用户名</value>
+  </data>
+  <data name="LoginPasswordError" xml:space="preserve">
+    <value>密码错误,请输入正确密码!</value>
+  </data>
+  <data name="PasswdDiff" xml:space="preserve">
+    <value>两次输入密码不一致,请重新输入</value>
+  </data>
+  <data name="PwdChanged" xml:space="preserve">
+    <value>修改密码成功!</value>
+  </data>
+  <data name="PwdChangeFailed" xml:space="preserve">
+    <value>数据库未知错误,修改密码失败,将继续使用原来的密码!</value>
+  </data>
+  <data name="UserAdded" xml:space="preserve">
+    <value>添加用户成功!</value>
+  </data>
+  <data name="UserDeleted" xml:space="preserve">
+    <value>成功删除用户</value>
+  </data>
+  <data name="UserUnAdd" xml:space="preserve">
+    <value>添加用户失败</value>
+  </data>
+  <data name="CodeInputError" xml:space="preserve">
+    <value>代码不能为空</value>
+  </data>
+  <data name="NameInputError" xml:space="preserve">
+    <value>名字不能为空</value>
+  </data>
+  <data name="ValveInputError" xml:space="preserve">
+    <value>阀号值非法,请输入整数的阀号</value>
+  </data>
+  <data name="ValveInputNull" xml:space="preserve">
+    <value>阀号不能不写</value>
+  </data>
+  <data name="AddAuxiliaryError" xml:space="preserve">
+    <value>添加助剂失败</value>
+  </data>
+  <data name="AddDyeError" xml:space="preserve">
+    <value>添加染料失败</value>
+  </data>
+  <data name="ClearAuxiliaryError" xml:space="preserve">
+    <value>清除助剂失败</value>
+  </data>
+  <data name="ClearDyeError" xml:space="preserve">
+    <value>清除染料失败</value>
+  </data>
+  <data name="ColorNumberEmpty" xml:space="preserve">
+    <value>色号不能为空</value>
+  </data>
+  <data name="CreelCountError" xml:space="preserve">
+    <value>筒子个数值输入非法</value>
+  </data>
+  <data name="DelAuxiliaryError" xml:space="preserve">
+    <value>删除助剂失败</value>
+  </data>
+  <data name="DelDyeError" xml:space="preserve">
+    <value>删除染料失败</value>
+  </data>
+  <data name="DensityError" xml:space="preserve">
+    <value>密度值输入错误</value>
+  </data>
+  <data name="LiquorRatioError" xml:space="preserve">
+    <value>浴比值输入非法</value>
+  </data>
+  <data name="LongPrescriptionError" xml:space="preserve">
+    <value>配方太过复杂了</value>
+  </data>
+  <data name="MachineCode" xml:space="preserve">
+    <value>机器 代号不能为空</value>
+  </data>
+  <data name="OrderIDEmpty" xml:space="preserve">
+    <value>订单号不能为空</value>
+  </data>
+  <data name="PatternEmpty" xml:space="preserve">
+    <value>花色不能为空</value>
+  </data>
+  <data name="PrescriptionEmpty" xml:space="preserve">
+    <value>配方值不能为空</value>
+  </data>
+  <data name="SaveOrderFailed" xml:space="preserve">
+    <value>订单存档失败</value>
+  </data>
+  <data name="SaveOrderSuccess" xml:space="preserve">
+    <value>订单存档成功</value>
+  </data>
+  <data name="StoreTimeEmpty" xml:space="preserve">
+    <value>存单时间异常</value>
+  </data>
+  <data name="UpdateError" xml:space="preserve">
+    <value>更新失败</value>
+  </data>
+  <data name="WaterWeightError" xml:space="preserve">
+    <value>水位值输入错误</value>
+  </data>
+  <data name="YarnCountError" xml:space="preserve">
+    <value>纱支值输入非法</value>
+  </data>
+  <data name="YarnWeightError" xml:space="preserve">
+    <value>纱重值输入非法</value>
+  </data>
+  <data name="ConnectSuccess" xml:space="preserve">
+    <value>连接成功</value>
+  </data>
+  <data name="DensityInputError" xml:space="preserve">
+    <value>密度值非法,请输入正确数值</value>
+  </data>
+  <data name="DyeCodeInputError" xml:space="preserve">
+    <value>染助剂代码输入错误</value>
+  </data>
+  <data name="NumberInputError" xml:space="preserve">
+    <value>含有非法字符,请输入数字值</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="eWeight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\eWeight.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="libra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\libra.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StepCountError" xml:space="preserve">
+    <value>生产步骤格式不对</value>
+  </data>
+  <data name="RegisterFailed" xml:space="preserve">
+    <value>注册失败,请输入正确的注册码!</value>
+  </data>
+  <data name="RegisterSuccess" xml:space="preserve">
+    <value>软件注册成功!</value>
+  </data>
+  <data name="CreateOrderFailed" xml:space="preserve">
+    <value>创建订单失败</value>
+  </data>
+  <data name="OrderIDViewAdded" xml:space="preserve">
+    <value>已经加入传送队列中</value>
+  </data>
+  <data name="OrderIDViewDeleteFailed" xml:space="preserve">
+    <value>删除订单号失败</value>
+  </data>
+  <data name="OrderIDViewNoSelected" xml:space="preserve">
+    <value>没有选中订单号</value>
+  </data>
+  <data name="OrderSendFailed" xml:space="preserve">
+    <value>订单传送失败</value>
+  </data>
+  <data name="OrderSendSuccess" xml:space="preserve">
+    <value>订单传送成功</value>
+  </data>
+</root>

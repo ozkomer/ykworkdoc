@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusTester", "ModbusTester.csproj", "{3538217B-6E35-4E2F-8B4D-8A8FBDEA1BB6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3538217B-6E35-4E2F-8B4D-8A8FBDEA1BB6}.Debug.ActiveCfg = Debug|.NET
+		{3538217B-6E35-4E2F-8B4D-8A8FBDEA1BB6}.Debug.Build.0 = Debug|.NET
+		{3538217B-6E35-4E2F-8B4D-8A8FBDEA1BB6}.Release.ActiveCfg = Release|.NET
+		{3538217B-6E35-4E2F-8B4D-8A8FBDEA1BB6}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
