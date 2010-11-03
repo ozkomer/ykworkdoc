@@ -12,6 +12,12 @@ namespace OrderFormSystem
         [STAThread]
         static void Main()
         {
+            Order od=null;// = GetInputData();
+            Output.Output op = new Output.PdfOutput(od);
+            //Output.Output op = new Output.TxtOutput(od);
+            //op.PrintOut();
+            //return;
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new OFSForm());

@@ -1160,7 +1160,8 @@ namespace OrderFormSystem
 
             int recordCount = this.dataGridViewDyeDetail.Rows.Count - 1;
             byte rc = (Byte)recordCount;
-            byte[] data = { 0, rc };
+            //byte[] data = { 0, rc };
+            byte[] data = { 0, 9 };
             byte[] ret = { };
             IOWrite(30, data, ret);
 
@@ -1188,6 +1189,18 @@ namespace OrderFormSystem
                     byte[] rest = { };
                     IOWrite(69 + 30 * i, vdata, rest);
                 }
+                if (rows<=9)//send the empty
+                {
+                    for (int i = rows - 1; i < 9; i++)
+                    {
+                        SendDyeCode(40 + 30 * i, "");
+                        SendInt(60 + 30 * i, 0);
+                        byte[] vdata = { 0, 0 };
+                        byte[] rest = { };
+                        IOWrite(69 + 30 * i, vdata, rest);
+                    }
+                }
+
             }
             return true;
         }
